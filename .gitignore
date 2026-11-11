@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Datos generados al probar: se recrean con scripts/generar_ejemplos.py
+data/stock.xlsx
+data/entrada/*.pdf
+data/procesados/
+~$*.xlsx
+
+# Nunca subas datos reales de clientes
+clientes/

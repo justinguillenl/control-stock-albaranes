@@ -1,0 +1,14 @@
+{
+  "RECAMBIOS_NORTE": {
+    "nombre": "Recambios Norte S.L.",
+    "detectar": "Recambios Norte",
+    "patron_numero": "Albarán nº:\\s*(\\S+)",
+    "patron_fecha": "Fecha:\\s*(\\d{2}/\\d{2}/\\d{4})",
+    "columnas": {
+      "Referencia": "ref_proveedor",
+      "Descripción": "descripcion",
+      "Cantidad": "cantidad",
+      "Precio": "precio"
+    }
+  }
+}

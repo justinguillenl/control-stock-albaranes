@@ -1,0 +1,5 @@
+pandas>=2.0
+openpyxl>=3.1
+pdfplumber>=0.10
+reportlab>=4.0   # solo para generar los albaranes de ejemplo
+pytest>=8.0      # solo para los tests
